@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: 4fr 140px 3fr;
     grid-template-rows: 1fr 1fr;
-    background-image: url(/images/pattern-curve.svg);
+    background-image: url(../images/pattern-curve.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto;
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 26%;
-    background-image: url(/images/pattern-quotes.svg);
+    background-image: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
     background-position: 43% 27%;
     background-size: auto;
@@ -38,7 +38,7 @@
   }
 
   &__img {
-    background-image: url(/images/pattern-bg.svg);
+    background-image: url(../images/pattern-bg.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
