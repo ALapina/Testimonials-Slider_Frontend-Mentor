@@ -1,0 +1,82 @@
+@include media-lg {
+
+  .slider {
+    &__text {
+      padding-left: 5%;
+      background-position: 20% 29%;
+      background-size: 15%;
+    }
+
+    &__person {
+      font-size: 20px;
+    }
+
+    &__content {
+      background-size: 50%;
+    }
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+}
+
+@include media-md {
+  p {
+    font-size: 28px;
+  }
+
+  .slider {
+    &__content {
+      grid-template-columns: auto;
+      background-size: 85%;
+    }
+
+    &__text {
+      text-align: center;
+      padding-left: 0;
+      grid-column: 1 / -1;
+      grid-row: 2 / 3;
+      justify-content: flex-start;
+      margin-top: 10%;
+      background-position: center top;
+    }
+
+    &__person {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__img {
+      background-position: center;
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      display: grid;
+      place-items: center;
+      margin: 0;
+
+      img {
+        width: 60%;
+      }
+    }
+
+  }
+
+  .controls {
+    top: 43%;
+    right: 37%;
+  }
+
+}
+
+@include media-small {
+  img {
+    width: 80%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+}

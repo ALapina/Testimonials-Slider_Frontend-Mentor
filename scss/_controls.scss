@@ -1,0 +1,24 @@
+.controls {
+  position: absolute;
+  top: 87%;
+  right: 33%;
+}
+
+.arrow {
+  float: left;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 11px 16px;
+  border: 1px solid white;
+}
+
+.goToPrev {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.goToNext {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}

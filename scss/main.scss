@@ -1,0 +1,32 @@
+@import "config";
+@import "carousel";
+@import "controls";
+@import "attribution";
+@import "responsive";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $dark-blue;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  //border: 1px solid blue;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  //border: 1px solid red;
+}
