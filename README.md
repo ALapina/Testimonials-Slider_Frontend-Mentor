@@ -1,29 +1,20 @@
-# Frontend Mentor - Coding Bootcamp Testimonials Slider
+# 🚚 Coding Bootcamp Testimonials Slider
 
 ![Design preview for the Coding Bootcamp Testimonials Slider coding challenge](./design/desktop-preview.jpg)
 
-This is [Frontend Mentor](https://www.frontendmentor.io) challenge allows you to improve your skills in a real-life workflow.
+This is my solution for [Frontend Mentor](https://www.frontendmentor.io) challenge.
 
-## The challenge
+## 🔗 Live Link / Demo Link:
 
-Build out this testimonial slider and get it looking as close to the design as possible.
+- https://alapina.github.io/Testimonials-Slider_Frontend-Mentor
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## 🛠 Used Technologies
 
-Your users should be able to: 
-
-- View the optimal layout for the component depending on their device's screen size
-- Navigate the slider using either their mouse/trackpad or keyboard
-
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as font-size, padding and margin. This should help train your eye to perceive differences in spacings and sizes.
-_____________________________
-
-## Used technologies
-
-- Scss
-- Vanilla JS with simple event listeners
+- HTML
 - CSS Grid
 - Flexbox
+- SCSS
+- Vanilla JS with simple event listeners
 
 ## Challenging parts
 
@@ -33,7 +24,7 @@ Since image and text with background needs to be in different places on desktop 
 
 The first idea was to place all background images on one layer - carousel, and place image and text with position absolute. On a desktop screen size result was satisfactory, but when resizing for mobile, it took a lot of work with a complete rework of the structure of a layout and with pixel tweaking. Code and visual result wasn't satisfying for me.
 
-So I decided to try to make a page responsive and easily maintainable with CSS Grid. I did not have much practice with CSS grid so it was challenging and new for me. 
+So I decided to try to make a page responsive and easily maintainable with CSS Grid. I did not have much practice with CSS grid so it was challenging and new for me.
 
 I placed pattern-quotes background on text block and pattern-bg background on image block, and now with resizing, block changes it's position with the background.
 Additionally, using CSS grid allowed me easily change the entire structure from horizontal to vertical with only one property `grid-template-columns: auto;` and minimum pixel tweaking.
@@ -42,8 +33,8 @@ Result is not a pixel-perfect but I am satisfied with code and visual result. Pa
 
 ### Overlapping with CSS grid
 
-While working on this challenge a wanted to try a new technique for me - overlapping with CSS grid. 
-A lesson from wonderful [Jen Simmons](https://www.youtube.com/watch?v=EashgVqboWo&ab_channel=LayoutLand) helped me to deal with such a challenge. 
+While working on this challenge a wanted to try a new technique for me - overlapping with CSS grid.
+A lesson from wonderful [Jen Simmons](https://www.youtube.com/watch?v=EashgVqboWo&ab_channel=LayoutLand) helped me to deal with such a challenge.
 
 For overlapping with grid we need an additional grid column where two objects will overlap. And for each object we need to assign what grid columns they will take. Here is an example:
 
@@ -72,4 +63,4 @@ This challenge was my first practice with JS. Previously I only had an online co
 
 The first idea behind the logic of how slider works is just moving classes "next", "current" and "previous" with JS and in CSS move slides with `transform`.
 
-In the second and final solution, the logic is to calculate a width of slide and move slide by this amount every time user moves from slide to slide. 
+In the second and final solution, the logic is to calculate a width of slide and move slide by this amount every time user moves from slide to slide.
